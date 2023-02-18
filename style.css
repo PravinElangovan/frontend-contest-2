@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    background-color: black;
+
+    
+}
+.container{
+    margin: 20px;
+}
+.nav{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.bodyContainer{
+    display: flex;
+}
+.tasksTable{
+    padding: 20px;
+}
+.profile{
+    border: 1px solid white;
+    color: #ffffff;
+    height: 160px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.details{
+    border: 1px solid white;
+    color: white;
+    
+    height: 160px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.links{
+    border: 1px solid white;
+    color: white;
+    height: 160px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.right{
+    width: 95%;
+    border: 1px solid white;
+    margin:10px;
+    border-radius: 10px;
+}
+.taskHeading{
+    color: white;
+    font-size: 25px;
+    margin:20px 20px 20px 20px;
+
+}
+.tableStyle{
+    margin: 30px;
+    border: 1px solid white; 
+    color: white; 
+    border-radius: 10px;
+    border-collapse: collapse;
+    
+    
+}
+td{
+    padding:10px;
+   border: 1px solid white;
+}
+th{
+   padding: 10px;
+   border: 1px solid white;
+}
+#task{
+    width:100%;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width:100px;
+    height: 100px;
+}
+.name{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.listStyle{
+    padding: 15px;
+}
+li{
+    padding: 2px;
+}
+.icon{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    .bodyContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    .profile,
+    .details,
+    .links {
+      width: 95%;
+      max-width: none;
+    }
+    .taskHeading{
+        font-size: 20px;
+        margin-left: 0;
+    }
+  }
